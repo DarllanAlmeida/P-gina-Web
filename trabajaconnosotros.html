@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trabajaconnosotros.css">
+    <title>Landing Page - Trabajo enfoque</title>
+</head>
+<body>
+
+    <h1>Trabaja con Nosotros</h1>
+
+    <form action="#" method="post">
+        <!-- Sección Datos Personales -->
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="text" id="nacionalidad" name="nacionalidad" required>
+
+            <label for="codigo-postal">Código Postal:</label>
+            <input type="text" id="codigo-postal" name="codigo-postal" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset>
+
+        <!-- Sección Formación -->
+        <fieldset>
+            <legend>Formación</legend>
+
+            <div class="formación">
+                <div>
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="titulo" name="titulo" placeholder="Título de la formación" required>
+                </div>
+
+                <div>
+                    <label for="inicio">Año de Inicio:</label>
+                    <input type="number" id="inicio" name="inicio" placeholder="Año de inicio" required>
+                </div>
+
+                <div>
+                    <label for="fin">Año de Finalización:</label>
+                    <input type="number" id="fin" name="fin" placeholder="Año de finalización" required>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- Sección Idiomas -->
+        <fieldset>
+            <legend>Idiomas</legend>
+
+            <label for="idioma">Idioma:</label>
+            <input type="text" id="idioma" name="idioma" placeholder="Especifica el idioma" required>
+
+            <div class="idiomas">
+                <div>
+                    <label for="hablado">Hablado:</label>
+                    <select id="hablado" name="hablado">
+                        <option value="excelente">Excelente</option>
+                        <option value="bien">Bien</option>
+                        <option value="regular">Regular</option>
+                        <option value="nada">Nada</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="leido">Leído:</label>
+                    <select id="leido" name="leido">
+                        <option value="excelente">Excelente</option>
+                        <option value="bien">Bien</option>
+                        <option value="regular">Regular</option>
+                        <option value="nada">Nada</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="escrito">Escrito:</label>
+                    <select id="escrito" name="escrito">
+                        <option value="excelente">Excelente</option>
+                        <option value="bien">Bien</option>
+                        <option value="regular">Regular</option>
+                        <option value="nada">Nada</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- Botón de envío -->
+        <button type="submit">Enviar Formulario</button>
+    </form>
+
+    
+</body>
+</html>

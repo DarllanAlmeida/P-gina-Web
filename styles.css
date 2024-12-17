@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(20, 74, 110);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    transition: 0.3s all;
+}
+
+a:hover{
+    color: rgb(66, 219, 247);
+}
+
+h1{
+    font-weight: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.marketing{
+    margin-top: 150px;
+}
+
+
+.title{
+    flex-direction: column;
+    line-height: 30px;
+}
+
+h2{
+    font-size: 52px;
+    
+}
+
+p{
+    line-height:20px;
+    max-width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span{
+    color: rgb(66, 219, 247);
+}
+
+img{
+    width: 560px;
+}

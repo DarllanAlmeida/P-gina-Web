@@ -1,0 +1,112 @@
+body{
+    
+    color: rgb(31, 29, 29);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 15px;
+    background-image: url(img/foto\ ordenador.jpg); 
+    background-size: cover;  
+    background-position: center;  
+    background-attachment: fixed;
+}
+
+      
+.content{
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 200px;
+    color:  rgb(23, 97, 110);
+}
+
+h2{
+    margin-left: 310px;
+    color:  rgb(23, 97, 110);
+}
+
+h3{
+    margin-left: 300px;
+    margin-top: 30px;
+    color:  rgb(23, 97, 110);
+}
+
+main{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+p{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.parafo{
+    margin-left: 100px;
+}
+
+.palabra{
+    margin-left: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    
+}
+
+input{
+    height: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+.contenido{
+    
+    width: 600px;             /* Ancho de la caja */
+    height: 600px;            /* Altura de la caja */
+    background-color: white; /* Fondo blanco */
+    border: 2px solid #ccc;  /* Borde gris claro */
+    padding: 20px;            /* Espacio interno (relleno) */
+    margin: 20px auto;        /* Márgenes para centrarla y espacio alrededor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px;
+    color:  rgb(23, 97, 110);     
+    
+
+}
+.mensaje-text{
+    width: 100%;          /* Hace que la caja ocupe todo el ancho disponible */
+    height: 200px;        /* Establece una altura de 200px (puedes ajustarlo) */
+    padding: 10px;        /* Agrega espacio interno dentro de la caja */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;   /* Bordes redondeados */
+    font-size: 16px;       /* Tamaño de fuente adecuado */
+    resize: vertical; 
+}
+
+.btn{
+    height: 50px;
+    width: 50%;
+    background-color:  rgb(23, 97, 110);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: aquamarine;
+    
+}

@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(178, 180, 180);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.content{
+    display: inline-block;
+    margin: 30px;
+   
+}
+
+main{
+    margin-top: 60px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.word{
+    font-size: 40px;
+}
+
+.word:hover{
+    color:rgb(218, 99, 109); 
+}
+
+img{
+    margin: 100px;
+    margin-top: 3px;
+}
+
+h1{
+    font-size: 60px;
+    margin-left: 100px;
+}
+
+.palabra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p:hover{
+    color: rgb(218, 99, 109);
+
+}
+
+
+span{
+    color: rgb(218, 99, 109);
+}

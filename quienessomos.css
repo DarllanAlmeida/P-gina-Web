@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(20, 74,110);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px;
+}
+
+main{
+   display: flex;
+   flex-direction: row;
+   margin-top: 30px;
+}
+
+.digital{
+    margin-top: 100px;
+    font-size: 50px;
+    
+}
+
+h1{
+    margin: 20px;
+    line-height: 80px;
+}
+
+p{
+    line-height: 20px;
+    padding-top: 30px;
+}
+
+span{
+    color: rgb(66, 219, 247);
+}
+
+.video{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+img{
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+
+.imagem{
+    margin-left: 250px;
+}
+
+footer{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+span{
+    color: rgb(66, 219, 247);
+}
